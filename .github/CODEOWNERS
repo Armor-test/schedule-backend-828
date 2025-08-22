@@ -1,0 +1,36 @@
+# CODEOWNERS file for schedule-backend-828
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-identity @Armor-test/squad-cache @Armor-test/squad-database
+
+# Directory ownership
+/extensions/ @Armor-test/squad-qa @Armor-test/team-reporting
+/controllers/ @Armor-test/squad-frontend @Armor-test/squad-ux
+/assets/ @Armor-test/grp-ui @Armor-test/grp-payments
+/vendor/ @Armor-test/team-logging @Armor-test/squad-qa @Armor-test/grp-reporting
+/web/ @Armor-test/squad-cache @Armor-test/team-research @Armor-test/squad-performance
+/models/ @Armor-test/squad-performance @Armor-test/dept-release
+/views/ @Armor-test/grp-reporting @Armor-test/squad-apps @Armor-test/dept-identity
+/api/ @Armor-test/squad-search @Armor-test/unit-devops
+/styles/ @Armor-test/dept-automation @Armor-test/grp-payments
+/src/ @Armor-test/dept-reporting @Armor-test/squad-apps
+/helpers/ @Armor-test/squad-research @Armor-test/unit-cloud @Armor-test/squad-database
+
+# File type ownership
+*.php @Armor-test/squad-ml @Armor-test/squad-tooling
+*.kt @Armor-test/grp-storage @Armor-test/squad-cache @Armor-test/dept-security
+*.gradle @Armor-test/team-frontend @Armor-test/dept-ui @Armor-test/team-research
+*.js @Armor-test/dept-identity @Armor-test/dept-release
+*.swift @Armor-test/dept-security @Armor-test/dept-api
+*.scala @Armor-test/squad-database @Armor-test/unit-test @Armor-test/grp-api
+*.rs @Armor-test/squad-api @Armor-test/team-reporting
+*.c @Armor-test/grp-payments @Armor-test/grp-ui @Armor-test/dept-test
+*.scss @Armor-test/dept-release @Armor-test/squad-api
+*.css @Armor-test/team-governance @Armor-test/dept-release
+*.tf @Armor-test/squad-database @Armor-test/dept-data
+*.h @Armor-test/squad-payments @Armor-test/dept-billing
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
